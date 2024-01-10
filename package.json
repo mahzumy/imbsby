@@ -12,5 +12,8 @@
   "devDependencies": {
     "tailwindcss": "^3.4.1"
   },
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "flowbite": "^2.2.1"
+  }
 }
