@@ -2,13 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- This is optimized Meta for SEO purposes -->
+    <meta
+      name="description"
+      content="Kami adalah jasa pengurusan Izin Mendirikan Bangunan (IMB) / Persetujuan Bangunan Gedung (PBG) di Surabaya. Menerima janji temu dan visit ke lokasi. Hubungi kami di nomor Whatsaapp 0813-3356-1110"
+    />
+    <!-- End of Meta SEO -->
     <link rel="stylesheet" href="/src/dist/output.css" />
-    <title>Document</title>
+    <title>Jasa IMB Surabaya</title>
   </head>
   <body class="bg-gray-100 font-sans">
     <!-- Navbar -->
-    <nav class="bg-white border-gray-200 dark:bg-gray-900 sm:px-2 md:px-4">
+    <header
+      class="sticky top-0 z-0 bg-white border-gray-200 dark:bg-gray-900 sm:px-2 md:px-4"
+    >
       <div
         class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
       >
@@ -52,21 +59,21 @@
           >
             <li>
               <a
-                href="#"
+                href="#beranda"
                 class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >Beranda</a
               >
             </li>
             <li>
               <a
-                href="#"
+                href="#layanan"
                 class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >Layanan</a
               >
             </li>
             <li>
               <a
-                href="#"
+                href="#kontak"
                 class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >Kontak</a
               >
@@ -74,20 +81,28 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </header>
 
     <!-- Hero Section -->
-    <header
-      class="bg-cover bg-center h-screen relative flex items-center"
-      style="background-image: url('src/asset/gambar1.webp')"
+    <section
+      id="beranda"
+      class="bg-cover bg-center h-screen flex items-center bg-black"
+      style="background-image: url('src/asset/gambar1.png')"
     >
-      <div class="absolute inset-0 bg-black opacity-50"></div>
-      <div class="container mx-auto text-center relative z-10 px-10">
-        <h1 class="text-5xl text-white font-bold leading-tight mb-4">
-          Jasa IMB Surabaya
+      <!-- <div class="absolute inset-0 bg-black opacity-50"></div> -->
+      <div class="container mx-auto text-center px-10">
+        <h1 class="text-5xl text-white font-bold leading-tight">
+          JASA PENGURUSAN PBG / IMB
+        </h1>
+        <h1 class="text-5xl text-white font-bold leading-tight mb-8">
+          Rumah Tinggal SURABAYA
         </h1>
         <p class="text-xl text-white">
           Layanan profesional untuk Izin Mendirikan Bangunan di Surabaya.
+        </p>
+        <p class="text-lg text-white">
+          Membuka jasa pengurusan PBG / IMB khusus rumah tinggal khusus wilayah
+          Surabaya.
         </p>
         <a
           href="#layanan"
@@ -95,36 +110,53 @@
           >Lihat Layanan</a
         >
       </div>
-    </header>
+    </section>
 
     <!-- Layanan Section -->
     <section id="layanan" class="py-16 px-10">
       <div class="container mx-auto text-center">
         <h2 class="text-3xl font-bold mb-8">Layanan Kami</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"> -->
+        <div class="">
           <!-- Layanan Item 1 -->
           <div class="bg-white p-6 rounded-lg shadow-md">
-            <h3 class="text-xl font-bold mb-4">Pengurusan IMB</h3>
+            <h3 class="text-xl font-bold mb-4">Pengurusan IMB / PBG</h3>
+            <p class="text-gray-600">Proses PBG / IMB rumah tinggal cepat.</p>
             <p class="text-gray-600">
-              Kami membantu Anda dalam pengurusan Izin Mendirikan Bangunan (IMB)
-              dengan cepat dan tepat.
+              Kami datang langsung ke lokasi bapak/ibu untuk survey lokasi untuk
+              dibuatkan gambar IMB nya.
             </p>
+            <p class="text-gray-600">
+              Harga mulai 1 juta. Bergantung situasi dan kondisi bangunan.
+            </p>
+            <p class="text-gray-600">
+              Pembayaran 100% setelah penyerahan PBG / IMB.
+            </p>
+            <p class="text-gray-600">
+              Monggo kalau mau tanya2 dulu silahkan :)
+            </p>
+            <p class="text-gray-600 mb-4">Minat inbox / WA.</p>
+            <a
+              class="text-black text-xl font-bold hover:underline hover:text-2xl"
+              href="https://wa.me/6281333561110"
+              >081333561110</a
+            >
           </div>
           <!-- Layanan Item 2 -->
-          <div class="bg-white p-6 rounded-lg shadow-md">
+          <!-- <div class="bg-white p-6 rounded-lg shadow-md">
             <h3 class="text-xl font-bold mb-4">Konsultasi Perizinan</h3>
             <p class="text-gray-600">
               Berikan konsultasi mengenai perizinan dan persyaratan mendirikan
               bangunan di Surabaya.
             </p>
-          </div>
+          </div> -->
           <!-- Layanan Item 3 -->
-          <div class="bg-white p-6 rounded-lg shadow-md">
+          <!-- <div class="bg-white p-6 rounded-lg shadow-md">
             <h3 class="text-xl font-bold mb-4">Pembaruan Dokumen</h3>
             <p class="text-gray-600">
               Lakukan pembaruan dokumen perizinan bangunan dengan bantuan kami.
             </p>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -324,24 +356,27 @@
           Dapatkan layanan perizinan bangunan terbaik di Surabaya bersama Jasa
           IMB Surabaya.
         </p>
-        <a href="tel:+628123456789" class="block text-xl mt-4 hover:underline"
-          >Hubungi Kami: +628123456789</a
+        <a
+          href="https://wa.me/6281333561110"
+          class="block text-xl mt-4 hover:underline"
+          >Hubungi Kami: +6281333561110</a
         >
         <a
-          href="mailto:info@jasa-imb-surabaya.com"
+          href="mailto:jasapbgsurabaya.com"
           class="block text-xl mt-2 hover:underline"
-          >Email: info@jasa-imb-surabaya.com</a
+          >Email: jasapbgsurabaya.com</a
         >
       </div>
     </section>
 
     <a
-      href="https://wa.me/628123456789"
+      href="https://wa.me/6281333561110"
       class="drop-shadow-2xl fixed bottom-8 right-8"
     >
       <img
         class="h-[50px] w-[50px] hover:scale-110 duration-110 transition ease-in-out"
         src="src/asset/whatsapp.svg"
+        alt=""
       />
     </a>
     <!-- Footer -->
